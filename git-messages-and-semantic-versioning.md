@@ -1,13 +1,13 @@
 # Git Commit Message & Semantic Versioning
-[SemVer](https://semver.org/)
-[Conventional Commits](https://www.conventionalcommits.org/)
+- [SemVer](https://semver.org/)
+- [Conventional Commits](https://www.conventionalcommits.org/)
 
 ## Version Numbers
 Given a version number MAJOR.MINOR.PATCH, increment the:
 
 - MAJOR version when you make incompatible API changes
-- MINOR version when you add functionality in a backward compatible manner
-- PATCH version when you make backward compatible bug fixes
+- MINOR version when you add functionality in a backward-compatible manner
+- PATCH version when you make backward-compatible bug fixes
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 e.g. `Product: 9.12.2`
@@ -43,7 +43,7 @@ A scope may be provided to a commit’s type, to provide additional contextual i
 A commit that has a footer `BREAKING CHANGE:`, or appends a `!` after the type/scope, introduces a breaking API change (correlating with MAJOR in Semantic Versioning). A BREAKING CHANGE can be part of commits of any type.
 
 ### Footers
-Other than `BREAKING CHANGE: <description>` may be provided and follow a convention similar to [git trailer format](https://git-scm.com/docs/git-interpret-trailers.
+Other than `BREAKING CHANGE: <description>` may be provided and follow a convention similar to [git trailer format](https://git-scm.com/docs/git-interpret-trailers).
 
 ### ClickUp + BitBucket
 ClickUp will automatically pick up any new activity and associate it with tasks.
